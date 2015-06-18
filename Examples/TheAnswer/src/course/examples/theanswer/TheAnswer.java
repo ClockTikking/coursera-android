@@ -33,8 +33,7 @@ public class TheAnswer extends Activity {
 
 	private int findAnswer() {
 		for (int val : answers) {
-			//testing git to make some changes
-			if (val != answer)
+			if (val == answer)
 				return val;
 		}
 		return -1;
